@@ -1,8 +1,7 @@
 body {
 	background: url("http://bgfons.com/upload/stone_texture2401.jpg");
-	max-width: 960px;
+	max-width: 1000px;
 	position: relative;
-	margin: 0 auto;
 }
 header {
 	height: 100px;
@@ -31,7 +30,7 @@ nav a {
 	font-size: 14px
 	weight: 700;
 	top: -60px;
-	left: 946px;
+	left: 646px;
 	text-decoration: none;
 	color: gray;
 }
@@ -60,8 +59,8 @@ p {
 .main-content {
 	background-color: #ffffff;
 	border: 1px solid #ddd;
-	width: 650px;
-	height: 480px;
+	width: 420px;
+	height: 825px;
 	position:absolute;
 	top: 131px;
 	left: 157px;
@@ -93,7 +92,7 @@ h2 {
 	width: 270px;
 	top: 130px;
 	height: 200px;
-	left: 947px;
+	left: 657px;
 	background: white;
 	padding: 35px;
 	border: solid #ccc 1px;
@@ -108,7 +107,7 @@ footer {
 	height: 100px;
 	background-color: #666666;
 	position: relative;
-	top: 800px;
+	top: 950px;
 	border-top: 10px solid #4aaaa5;
 }
 .add {
@@ -173,7 +172,12 @@ button:hover {
     clear: both;
     display: block;
 }
+/* 640px Viewport */
 @media only screen and (max-width: 640px) {
+	/* index.html */
+	.container {
+		padding:10px;
+	}
     .logo {
     	width: 100%;
     }
@@ -186,7 +190,7 @@ button:hover {
 	font-size: 1.5em;
 	weight: 700;
 	text-decoration: none;
-	width: 20%;
+	width: 29%;
 	color: gray;
 	background-color: #fff;
 	margin:0;
@@ -197,6 +201,56 @@ button:hover {
 	padding: 0;
 }
 	div.main-content {
-		
+		width: 80%;
+		height: 765px;
+		top:176px;
+		left:30px;
 	}
+	.sidebar {
+		width:78%;
+		height:200px;
+		top:1028px;
+		left:30px;
+	}
+	footer {
+		top: 1208px;
+	}
+	footer p {
+		position:absolute;
+		left: 200px;
+	}
+	/* end of index html */
+}
+/* viewport 768px */
+@media only screen and (max-width: 768px) {
+	/* index.html */
+	.container {
+		padding:10px;
+	}
+	div.main-content {
+		width: 80%;
+		height: 335px;
+		top:176px;
+		left:30px;
+	}
+	.sidebar {
+		width:78%;
+		height:200px;
+		top:626px;
+		left:30px;
+	}
+	footer {
+		top: 808px;
+	}
+	footer p {
+		position:absolute;
+		left: 200px;
+	}
+	.logo {
+		left:30px;
+	}
+	nav a {
+		left: 370px;
+	}
+	/* end of index.html */
 }
