@@ -172,6 +172,9 @@ button:hover {
     clear: both;
     display: block;
 }
+form {
+	width: 80%;
+}
 /* 640px Viewport */
 @media only screen and (max-width: 640px) {
 	/* index.html */
