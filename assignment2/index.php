@@ -1,4 +1,2 @@
-<?php include_once("yourFileNameHere"); 
-
-	echo "hello world!";
+<?php include_once("index.html"); 
 ?>
