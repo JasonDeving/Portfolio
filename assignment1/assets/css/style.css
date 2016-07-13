@@ -182,8 +182,11 @@ form {
 		padding:10px;
 	}
     .logo {
+    	position:static;
     	width: 100%;
+    	text-align: center;
     }
+    
     header {
     	background: #4aaaa5;
     }
@@ -198,6 +201,7 @@ form {
 	background-color: #fff;
 	margin:0;
 	padding: 10px;
+	margin-left: 4px;
    }
    nav a + a:before {
 	content: "";

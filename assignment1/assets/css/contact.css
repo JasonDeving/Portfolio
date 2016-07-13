@@ -182,7 +182,9 @@ input, textarea {
 		padding:10px;
 	}
     .logo {
+    	position:static;
     	width: 100%;
+    	text-align: center;
     }
     header {
     	background: #4aaaa5;
@@ -191,12 +193,12 @@ input, textarea {
     position: static;
 	text-align: center;
 	font-size: 1.5em;
-	weight: 700;
+	font-weight: 700;
 	text-decoration: none;
 	width: 29%;
 	color: gray;
 	background-color: #fff;
-	margin:0;
+	margin-left: 4px;
 	padding: 10px;
    }
    nav a + a:before {
